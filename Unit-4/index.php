@@ -1,1 +1,0 @@
-<?php include_once('crystal-game.html') ?>
