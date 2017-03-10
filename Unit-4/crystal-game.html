@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Game</title>
+</head>
+<body>
+	<button id="button1" onkeyup="myfunction()">crytal placeholder1</button>
+	<button id="button2" onkeyup="myfunction()">crytal placeholder2</button>
+	<button id="button3" onkeyup="myfunction()">crytal placeholder3</button>
+	<button id="button4" onkeyup="myfunction()">crytal placeholder4</button>
+
+
+<script text="text/javascript">
+ var startGameNumber = randomInt(19, 120); //random number between 19-120
+ var playerScore = 0;
+ var crystal = new Object();
+ crystal.color = ;
+ crystal.value = Math.floor(Math.random() * 12 + 1);
+
+ function randomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+ $("#...").on("click", function ()
+  {
+  	do
+  	{
+  		playerScore += crystalValue;
+		if (playerScore == startGameNumber)
+		{
+			$("#..").html = ("You win! This was the number to match: "+startGameNumber);
+			break;
+		} 
+		else if (playerScore > startGameNumber)
+		{
+			alert("Game Over.");
+		}
+  	}while (playerScore<startGameNumber);
+  	  
+  	
+  });
+ </script>
+</body>
+</html>
