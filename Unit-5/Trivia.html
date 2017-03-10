@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Objects Trivia Game</title>
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
+</head>
+<body>
+ <h5>Working with Bootstrap, Timing Functions and Objects</h5>
+  <div class="container">
+   <div class="row">
+  	<div class="text-center"><h1><strong>Timed Trivia Quiz</strong></h1></div>
+   </div>
+   <div class="row"><h3 id="questionSpot"></h3></div>
+   <div class="row">
+     <form id="choices">
+		<div id="triviaContainer">
+     	<p id="question"></p>
+    	<input type="radio"><em value="firstChoice"></em></input><br>
+     	<input type="radio"><em value="secondChoice"></em></input><br>
+        <input type="radio"><em value="thirdChoice"></em></input><br>
+        <input type="radio"><em value="fourthChoice"></em></input><br>
+        </div>
+     </form>
+   </div>
+   <div class="row">
+    <div class="text-center col-sm-1"><button>Undecided Button</button></div> <!-- delay timing to display when quiz ends -->
+   </div>
+  </div> <!-- add bootstrap info -->
+ <script type="text/javascript" src="triviascript.js">
+ 	/* what can you do with this game:
+ 	start the game (starts timer)
+ 	show countdown timer.
+ 	read question and answers (html, write to the DOM)
+ 	pick an answer (on click function)
+ 	evaluation choice if trivia.correct_answer == user choice
+ 	tally unanswered questions, correct and incorrect answers 
+ 	if timer runs out before 10 questions answered break out of do while (timer > 0 || unansweredQuestions == 0 || quit == true)
+ 		make a function called "playGame" and include do while in the function, once function executes return to program and ask user if they'd like to play again*/
+ </script>
+</body>
+</html>
